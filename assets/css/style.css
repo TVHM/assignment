@@ -151,7 +151,7 @@ nav a:hover{
     background: url(../img/homepage_image.png);
     background-size: cover;
 	background-position: center bottom;
-	height:calc(100vh + 200px);
+	height:calc(100vh + 100px);
 	width:calc(100vh + 1000px);
 	display: inline-flex;
 	align-items: right;
