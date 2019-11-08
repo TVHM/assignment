@@ -1,0 +1,256 @@
+
+/* CSS Document */		
+  @import url("https://use.typekit.net/xpd8mqm.css");
+/* assign font for <p> */ 
+
+#wrapper{
+	
+	width: 100%;
+	margin: 0 auto;
+}
+
+#searchbox{
+	float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+	}
+
+h1 {
+    font-family: ltc-broadway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	
+    
+    text-transform:lowercase;
+    color:#43319;
+    font-size:24px;
+    letter-spacing:2px;
+}
+
+p{  font-family: ltc-broadway, sans-serif;
+    font-weight: 400;
+    text-transform:uppercase;
+    color:#43319;
+    font-size:15px;
+    letter-spacing:1px;
+	text-align: center;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #CFB0E8;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+body,html{
+	min-height:100%;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	border: 0px;
+}
+h3{
+	font-family: ltc-broadway, sans-serif;
+	color:#43319;
+    font-size:18px;
+}
+h4{
+    font-family: ltc-broadway, sans-serif;
+    font-weight:normal;
+    text-transform:uppercase;
+    color:#3A214D;
+    font-size:18px;
+
+}
+
+
+
+.btn{
+    
+	display:inline-block;
+    background: #7969c2;
+    padding:10px 20px; 
+    text-transfrom: lowercase;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+}
+
+btn:hover{
+    background:#c5baf5;
+    color:#433191;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,.2);
+}
+
+img{
+    float: center;
+    max-width:100%;
+}
+
+
+/*navigation appears throughout the website and should be styled early in the project*/
+header{
+    border-bottom:1px dotted #c5baf5;
+}
+header img{
+    width:100px;
+    padding:10px;
+}
+
+nav{
+	background:linear-gradient(-45deg, transparent 10px, #F8F8FF 0); 
+    float:right;
+	padding:10px;
+}
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display:inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color:#7969c2;
+    border: 1px dotted #c5baf5;
+    padding:7px 12px;
+    border-radius: 10px;
+}
+
+nav a:hover{
+    color: #433191;
+    border:1px dotted #433191;
+        box-shadow: 2px 2px 5px 2px rgba(0,0,0,.2)
+}
+
+    /*hero*/
+#hero{
+    background: url(../img/homepage_image.png);
+    background-size: cover;
+	background-position: center bottom;
+	height:calc(100vh + 200px);
+	width:calc(100vh + 1000px);
+	display: inline-flex;
+	align-items: right;
+	justify-content: center;
+  input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+}
+#hero div{
+	background:rgba(255,255,255,.75);
+	padding:20px;
+	text-align:center;
+	max-width:750px;
+	border-radius: 10px
+}
+
+#hero h1, #hero p{
+	margin-bottom:20px;
+}
+#hero pl div{
+	align-items:right;
+	
+}
+
+
+
+.container{
+		display:flex;
+	    padding:1px;
+		margin-left: 1px;
+		background:rgba(255,255,255,.75);
+		text-align:right;
+		display:flex;
+	   
+	
+		flex-wrap:wrap;
+		justify-content:left;
+		align-items:center;
+		align-content: center;
+				
+		}
+
+.container div{
+		 border: 1px rgba(255,255,255,.75) solid;
+		 padding:1px;
+			}
+		
+		/*.w8,.w92,.w16,.w83,.w25,.w75,.w33,.w67,.w42,.w58,.w50
+		
+			
+		}*/
+		.w8{width:8%;}
+		.w92{width:99%;}
+		.w16{width:16.07%;}
+		.w83{width:83.25%;}
+		.w25{width:24%;}
+		.w75{width:75.25%;}
+		.w33{width:33%;}
+		.w67{width:66.25%;}
+		.w42{width:42.5%;}
+		.w58{width:56.7%;}
+		.w50{width:51%;}
+		.w18{width:14%;}
+		.w51{width:48.25%;}
+		.w26{width:26.7%}
+    
+
+/*}*/
+
+#nc{
+	display:inline-block;
+}
+/*for listing page*/
+#masterdiv{
+	display:flex;
+	margin: 0px;
+	border: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+#divleft{
+	display:inline;
+		width:20%;
+}
+
+#divright{
+	display:inline;
+		width:80%;
+}
+
